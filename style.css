@@ -356,3 +356,17 @@ footer { padding: 30px 25px; text-align: center; border-top: 1px solid var(--bor
     background: rgba(36, 41, 46, 0.1); 
     color: #24292e; 
 }
+/* Contact Grid Layout Fix */
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* GitHub Icon Box Styling */
+.contact-github .c-icon {
+    background: rgba(36, 41, 46, 0.1);
+    color: #24292e;
+}
