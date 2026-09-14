@@ -352,3 +352,7 @@ footer { padding: 30px 25px; text-align: center; border-top: 1px solid var(--bor
 
 .purple { color: #a855f7; }
 .green { color: #059669; }
+.contact-github .c-icon { 
+    background: rgba(36, 41, 46, 0.1); 
+    color: #24292e; 
+}
